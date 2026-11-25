@@ -1,0 +1,19 @@
+.{
+    .name = .onvif,
+    .version = "0.1.0",
+    .fingerprint = 0x462b97d077ac7eaf,
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .specs = .{
+            .url = "git+https://github.com/onvif/specs.git#68ee1b540a40f848c9599eba2c55b87547c588d6",
+            .hash = "N-V-__8AAAWhOAGLyijJh8rfNAbFgYgUDOQv6QT4lQVv8_pn",
+        },
+    },
+    .paths = .{
+        "src",
+        "examples",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+    },
+}
